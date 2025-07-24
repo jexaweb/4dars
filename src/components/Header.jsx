@@ -8,10 +8,8 @@ function Header() {
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-blue-600">
-          <img className="w30  h11" src="./img/logo_coupang_w350.png" alt="" />
-        </div>
-
+        <div className="text-2xl font-bold text-blue-600"></div>
+        <img className="w30  h11" src="./img/logo_coupang_w350.png" alt="" />
         <nav className="hidden md:flex gap-6 text-gray-700 font-medium">
           <a href="#" className="hover:text-blue-600">
             Home
